@@ -1,0 +1,138 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+
+.planner {
+    width: 100%;
+    max-width: 1000px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(19, 112, 92, 0.438);
+    padding: 5.5rem;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column; 
+    gap: 2rem;
+}
+
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr; 
+    gap: 1rem;
+    align-items: center;
+}
+
+
+.body {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 1.5rem;
+}
+
+
+.lc {
+    background: #07f56a;
+    padding: 1.5rem;
+    border-radius: 8px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(228, 123, 3, 0.438);
+    gap: 1rem;
+}
+
+.lc h2{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.lc ul {
+    padding: 0;
+    margin: 0;
+}
+
+.lc li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.lc li input[type="checkbox"] {
+    margin-right: 0.2rem;
+}
+
+
+.rc {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr); 
+    gap: 1.5rem;
+}
+
+.rc .day {
+    background: #e96b05;
+    padding: 1rem;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(7, 219, 173, 0.438);
+}
+
+.rc .day h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+.checkboxes {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+    gap: 1rem; 
+}
+
+.checkboxes label {
+    display: flex;
+    align-items: center; 
+    font-size: 1rem;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.goal {
+    border: none;
+    border-bottom: 2px solid #1d1b1b; 
+    outline: none;
+    font-size: 1rem;
+    padding: 0.2rem 2;
+    background: transparent;
+    width: 100%;
+}
+
+
+
+ul li input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+

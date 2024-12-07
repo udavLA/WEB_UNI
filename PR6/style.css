@@ -1,0 +1,50 @@
+
+
+.pokemon {
+
+  position: absolute;
+  top: 400px;
+  left: 300px;
+  width: 100px;
+  height:100px;
+  background-image: url('https://img.pokemondb.net/sprites/black-white/anim/normal/lickilicky.gif'); /* Replace with your sprite sheet */
+  background-size: 100% 100%; 
+  
+ 
+}
+
+
+
+.boom {
+
+ visibility: hidden;
+  position: absolute;
+  top: 160px;
+  left: 70px;
+  width: 200px;
+  height:200px;
+  rotate: 20deg;
+  background-image: url('resources/boom.gif'); 
+  background-size: 100% 100%; 
+  
+  
+}
+
+.pokemon:hover ~ .boom{
+  visibility: visible;
+}
+
+
+.pokemon:hover  {
+
+  transition: 0s;
+  transform: scale(5) rotate(300deg);
+  background-image: url('resources/explode.gif'); 
+  background-size: 100% 100%; 
+  
+ 
+
+}
+
+
+
